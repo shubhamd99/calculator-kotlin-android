@@ -30,12 +30,12 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/buClean"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
-                android:onClick="buNumberEvent"
+                android:onClick="buCleanEvent"
                 android:text="AC"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -55,12 +55,12 @@
                 app:backgroundTint="@color/whiteback" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/buPercent"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
-                android:onClick="buNumberEvent"
+                android:onClick="buPercentEvent"
                 android:text="%"
                 android:textColor="@color/black"
                 android:textSize="18sp"

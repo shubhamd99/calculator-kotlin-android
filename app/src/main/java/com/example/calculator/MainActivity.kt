@@ -114,4 +114,16 @@ class MainActivity : AppCompatActivity() {
         edShowNumber.setText(finalNumber.toString())
         isNewOp = true
     }
+
+    public fun buPercentEvent(view: View) {
+        val number = edShowNumber.text.toString().toDouble() / 100
+        edShowNumber.setText(number.toString())
+        isNewOp = true
+
+    }
+
+    public fun buCleanEvent(view: View) {
+        edShowNumber.setText("")
+        isNewOp = true
+    }
 }
